@@ -1,4 +1,4 @@
-/* import { mountRootParcel } from "single-spa";
+import { mountRootParcel } from "single-spa";
 import Parcel from "single-spa-react/parcel";
 
 import { buttonLifecycles } from "@spms/angular-app";
@@ -18,4 +18,4 @@ export const AngularButton = () => {
       {...someAngularProps}
     />
   );
-}; */
+};

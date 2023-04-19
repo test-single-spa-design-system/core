@@ -2,7 +2,7 @@ import { NavBar } from "@spms/navbar";
 import { ReactButton } from "@spms/react-app";
 import "./styles.css";
 
-// import { AngularButton } from "./components/AngularComponent";
+import { AngularButton } from "./components/AngularComponent";
 
 export default function Root(props) {
   return (
@@ -23,7 +23,7 @@ export default function Root(props) {
           <div className="component reactComponents">
             <h3>Angular Components</h3>
 
-            {/* <AngularButton /> */}
+            <AngularButton />
           </div>
         </div>
       </div>
